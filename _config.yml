@@ -2,8 +2,8 @@ url: http://kirbyt.github.io
 baseurl: /timeline-jekyll-theme
 
 # Site Settings
-title: Timeline
-description: "Timeline is multipurpose, single page Jekyll theme that includes a timeline section."
+title: [hirak]
+description: "Personal information"
 keywords: "jekyll, theme"
 google-tracking-id:
 
@@ -12,3 +12,12 @@ google-tracking-id:
 career-img: "img/timeline/default.jpg"
 
 exclude: ["Rakefile", "LICENSE", "readme.markdown"]
+
+# social networks
+
+twitter_username:     hrksrkr
+github_username:      hiraksarkar
+linkedin_username:    hiraksarkar
+google_plus_username: 
+facebook_username:    
+dribbble_username:
