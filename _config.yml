@@ -246,7 +246,7 @@ pages_list:
   #Blog: 'latest-post'
   About: 'realabout'
   Bio: 'bio'
-  Publication: 'about'
+  Publication: 'publication'
   Events: 'research'
   Contact: 'contact'
 
