@@ -47,18 +47,28 @@ background-img: "../img/back61.jpeg"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: False
+dynamic-typing: True
 shuffle: False # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
+linkedin_url: "https://linkedin.com/in/hiraksarkar"
+new_color: "color: #e34f26;"
+
 lines: # You can add HTML Tags in the Text
   - text: "Hi, this is Hirak"
-  - text: "Welcome to my web home"
+  - text: "<span {{ site.new_color }}><u>[NEW]</u>
+  </span> Actively looking for research internships<sup>
+  [<a href={{ site.linkedin_url }}>
+  <i class=\"fa fa-linkedin\"></i></a>]</sup> in Data Analysis, Applied 
+  ML and Bioinformatics."
+  #- text: "internships<sup>[<a href="https://linkedin.com/in/hiraksarkar"><i class="fa fa-linkedin"></i></a>]</sup> 
+#in Data Analysis, Applied ML and Bioinformatics."
+  #- text: "Welcome to my web home"
 
-me-img: ""
+me-img: "/img/profile.jpg"
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -126,6 +136,7 @@ disqus-shortname: "panossakkos"
 
 syntax-highlight: True
 
+
 ############
 # Timeline #
 ############
@@ -164,12 +175,12 @@ Keep checking for exciting upcoming news. Released [[biorXiv]](https://doi.org/1
     [*Prof Adam Siepel*](http://siepellab.labsites.cshl.edu/)(CSHL) and my supervisor Prof. Robert Patro on my committee."
 
   - image: "/img/timeline/combine_lab_logo.png"
-    date: "May 2014 - May 2015"
+    date: "May 2015 - May 2016"
     description: "I started working with [*Prof Robert Patro*](http://www.robpatro.com/redesign/), excited, at the end of almost an year we (with my other labmates) developed two
     tools, [*RapMap*](https://github.com/COMBINE-lab/RapMap/) and [*RapClust*](https://github.com/COMBINE-lab/RapClust)."
 
   - image: "/img/timeline/sbu3.png"
-    date: "Aug 2014"
+    date: "Aug 2014 - May 2015"
     description: "I joined Stony Brook University and recieved presitigious CS Chair Fellowship of 10,000$. 
     I met my supervisor Rob Patro and cleared all 5 qualifier courses :)."
 
@@ -201,8 +212,8 @@ author_blurb_image: "/img/author.png"
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/hiraksarkar.cs"
+  - title: "linkedin"
+    url: "https://linkedin.com/in/hiraksarkar"
   - title: "twitter"
     url: "https://twitter.com/hrksrkr"
   - title: "github"
@@ -233,6 +244,7 @@ keybase-in-footer: False
 
 pages_list:
   #Blog: 'latest-post'
+  About: 'realabout'
   Bio: 'bio'
   Publication: 'about'
   Events: 'research'
