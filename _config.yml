@@ -147,7 +147,7 @@ events:
     description: "Beside working on a cool data structures for [*pufferfish*](https://github.com/COMBINE-lab/pufferfish), de-Bruijn graph 
 based mappers, I got really interested in publicly available big data. With Rob, I am now figuring out this maze of 
 [Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra), and trying to find meaningful insights from this exponentially increasing public database. 
-Keep checking for exciting upcoming news. Released [[biorXiv]](https://doi.org/10.1101/191874)"
+Keep checking for exciting upcoming news. Released [[biorXiv]](https://doi.org/10.1101/191874)."
 
 
   - image: "/img/back_img_net.jpg"
@@ -155,7 +155,7 @@ Keep checking for exciting upcoming news. Released [[biorXiv]](https://doi.org/1
     description: "We worked on a new way for solving the abundance calculation problem for RNA-seq read mapping. 
     Kallisto and RapMap are not as accurate as you think in special cases, such as discussed
     [here](https://cgatoxford.wordpress.com/2016/08/17/why-you-should-stop-using-featurecounts-htseq-or-cufflinks2-and-start-using-kallisto-salmon-or-sailfish/).
-    We propose Selective Alignment. Preprinted [[biorXiv]](https://doi.org/10.1101/138800)"
+    We propose Selective Alignment. Preprinted [[biorXiv]](https://doi.org/10.1101/138800)."
 
   - image: "/img/back_img_net.jpg"
     date: "Oct 2016 - Feb 2017"
