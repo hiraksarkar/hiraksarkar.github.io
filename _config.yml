@@ -30,9 +30,9 @@ force-https: True
 
 lang: "en"
 author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+title: "{ Hirak Sarkar }"
+description: "Personal profile, .y web home"
+keywords: "sarkar, hirak, compbio, bioinformatics, RNA-seq"
 favicon: "/img/favicon.ico"
 
 ################
@@ -41,24 +41,24 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/black-lab-glass.ico"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/back61.jpeg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
+dynamic-typing: False
+shuffle: False # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Hi, this is Hirak"
+  - text: "Welcome to my web home"
 
-me-img: "/img/jetpacktocat.png"
+me-img: ""
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -132,21 +132,58 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
+    date: "June 2017 - Present"
+    description: "Beside working on a cool data structures for [*pufferfish*](https://github.com/COMBINE-lab/pufferfish), de-Bruijn graph 
+based mappers, I got really interested in publicly available big data. With Rob, I am now figuring out this maze of 
+[Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra), and trying to find meaningful insights from this exponentially increasing public database. 
+Keep checking for exciting upcoming news. Released [[biorXiv]](https://doi.org/10.1101/191874)"
+
+
   - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+    date: "March 2017 - May 2017"
+    description: "We worked on a new way for solving the abundance calculation problem for RNA-seq read mapping. 
+    Kallisto and RapMap are not as accurate as you think in special cases, such as discussed
+    [here](https://cgatoxford.wordpress.com/2016/08/17/why-you-should-stop-using-featurecounts-htseq-or-cufflinks2-and-start-using-kallisto-salmon-or-sailfish/).
+    We propose Selective Alignment. Preprinted [[biorXiv]](https://doi.org/10.1101/138800)"
+
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "Oct 2016 - Feb 2017"
+    description: "We worked on a very cool RNA-seq compression algorithm. Had fun making a state-of-the-art RNA-seq compression tool,
+    proposed the idea of semi-reference based compression, published in [*BIOINFORMATICS*](https://doi.org/10.1093/bioinformatics/btx428) now. I also worked on a poster 
+    with [Prof Siepel](http://siepellab.labsites.cshl.edu/), presented in [*BioData*](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=16)"
+
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "May 2016 - July 2016"
+    description: "I collaborated with [Prof. Adam Siepel](http://siepellab.labsites.cshl.edu/). Learned a lot about probabilistic
+    graphical model. Developed a model for incorporating information from GRO-seq data and RNA-seq data. 
+    Such multi-modal analysis has not been explored before."
+
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "May 2016"
+    description: "Yayy, I passed my Research Proficiency Examination [[slides]](https://hiraksarkar.github.io/data/RPE-slides.pdf). Honored to have [*Prof Mike Schatz*](http://schatz-lab.org/)(JHU), 
+    [*Prof Adam Siepel*](http://siepellab.labsites.cshl.edu/)(CSHL) and my supervisor Prof. Robert Patro on my committee."
+
+  - image: "/img/timeline/combine_lab_logo.png"
+    date: "May 2014 - May 2015"
+    description: "I started working with [*Prof Robert Patro*](http://www.robpatro.com/redesign/), excited, at the end of almost an year we (with my other labmates) developed two
+    tools, [*RapMap*](https://github.com/COMBINE-lab/RapMap/) and [*RapClust*](https://github.com/COMBINE-lab/RapClust)."
+
+  - image: "/img/timeline/CSdeptLogo.jpg"
+    date: "Aug 2014"
+    description: "I joined Stony Brook University and recieved presitigious CS Chair Fellowship of 10,000$. 
+    I met my supervisor Rob Patro and cleared all 5 qualifier courses :)."
+
+
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "./img/profile.jpg"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "hiraksarkar.cs@gmail.here"
 
 ################
 # Author Blurb #
@@ -196,9 +233,10 @@ keybase-in-footer: True
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
+  #Blog: 'latest-post'
+  Bio: 'bio'
+  Publication: 'about'
+  Events: 'research'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
