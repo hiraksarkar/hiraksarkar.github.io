@@ -161,13 +161,13 @@ Keep checking for exciting upcoming news. Released [[biorXiv]](https://doi.org/1
     date: "Oct 2016 - Feb 2017"
     description: "We worked on a very cool RNA-seq compression algorithm. Had fun making in a state-of-the-art RNA-seq compression tool,
     proposed the idea of semi-reference based compression, now published in [*Bioinformatics*](https://doi.org/10.1093/bioinformatics/btx428) now. I also worked on a poster 
-    with [Prof Siepel](http://siepellab.labsites.cshl.edu/), presented in [*BioData*](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=16)"
+    with [Prof Siepel](http://siepellab.labsites.cshl.edu/), presented in [*BioData*](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=16)".
 
   - image: "/img/back_img_net.jpg"
     date: "May 2016 - July 2016"
     description: "I collaborated with [Prof. Adam Siepel](http://siepellab.labsites.cshl.edu/). Learned a lot about probabilistic
     graphical model. Developed a model for incorporating information from GRO-seq data and RNA-seq data. 
-    Such multi-modal analysis has not been explored before."
+    Such multimodal analysis has not been explored before."
 
   - image: "/img/back_img_net.jpg"
     date: "May 2016"
