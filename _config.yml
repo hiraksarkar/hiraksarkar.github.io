@@ -31,7 +31,7 @@ force-https: True
 lang: "en"
 author: "Hirak Sarkar"
 title: "{ Hirak Sarkar }"
-description: "Personal profile, .y web home"
+description: "Personal profile, my web home"
 keywords: "sarkar, hirak, compbio, bioinformatics, RNA-seq"
 favicon: "/img/favicon.ico"
 
