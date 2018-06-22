@@ -59,12 +59,12 @@ new_color: "color: #e34f26;"
 
 lines: # You can add HTML Tags in the Text
   - text: "Hi, this is Hirak"
-  - text: "<span {{ site.new_color }}><u>[NEW]</u>
-  </span>I am Actively looking for research internships<sup>
-  [<a href={{ site.linkedin_url }}>
-  <i class=\"fa fa-linkedin\"></i></a>]</sup> in Data Analysis, Applied 
-  ML and Bioinformatics."
-  #- text: "internships<sup>[<a href="https://linkedin.com/in/hiraksarkar"><i class="fa fa-linkedin"></i></a>]</sup> 
+  #- text: "<span {{ site.new_color }}><u>[NEW]</u>
+  #</span>I am Actively looking for research internships<sup>
+  #[<a href={{ site.linkedin_url }}>
+  #<i class=\"fa fa-linkedin\"></i></a>]</sup> in Data Analysis, Applied
+  #ML and Bioinformatics."
+  #- text: "internships<sup>[<a href="https://linkedin.com/in/hiraksarkar"><i class="fa fa-linkedin"></i></a>]</sup>
 #in Data Analysis, Applied ML and Bioinformatics."
   #- text: "Welcome to my web home"
 
@@ -143,16 +143,22 @@ syntax-highlight: True
 
 events:
   - image: "/img/back_img_net.jpg"
+    date: "June 2018 - Present"
+    description: "I joined Facebook as a data scientist intern and working on deep learning based workflows for disaster tracking.
+    It is super cool. :) "
+
+
+  - image: "/img/back_img_net.jpg"
     date: "June 2017 - Present"
-    description: "Beside working on a cool data structures for [*pufferfish*](https://github.com/COMBINE-lab/pufferfish), de-Bruijn graph 
-based mappers, I got really interested in publicly available big data. With Rob, I am now figuring out this maze of 
-[Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra), and trying to find meaningful insights from this exponentially increasing public database. 
+    description: "Beside working on a cool data structures for [*pufferfish*](https://github.com/COMBINE-lab/pufferfish), de-Bruijn graph
+based mappers, I got really interested in publicly available big data. With Rob, I am now figuring out this maze of
+[Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra), and trying to find meaningful insights from this exponentially increasing public database.
 Keep checking for exciting upcoming news. Released [[biorXiv]](https://doi.org/10.1101/191874)."
 
 
   - image: "/img/back_img_net.jpg"
     date: "March 2017 - May 2017"
-    description: "We worked on a new way for solving the abundance calculation problem for RNA-seq read mapping. 
+    description: "We worked on a new way for solving the abundance calculation problem for RNA-seq read mapping.
     Kallisto and RapMap are not as accurate as you think in special cases, such as discussed
     [here](https://cgatoxford.wordpress.com/2016/08/17/why-you-should-stop-using-featurecounts-htseq-or-cufflinks2-and-start-using-kallisto-salmon-or-sailfish/).
     We propose Selective Alignment. Preprinted [[biorXiv]](https://doi.org/10.1101/138800)."
@@ -160,18 +166,18 @@ Keep checking for exciting upcoming news. Released [[biorXiv]](https://doi.org/1
   - image: "/img/back_img_net.jpg"
     date: "Oct 2016 - Feb 2017"
     description: "We worked on RNA-seq compression algorithm. Developed a state-of-the-art RNA-seq compression tool,
-    introducing the idea of semi-reference based compression, now published in [*Bioinformatics*](https://doi.org/10.1093/bioinformatics/btx428) now. I also worked on a poster 
+    introducing the idea of semi-reference based compression, now published in [*Bioinformatics*](https://doi.org/10.1093/bioinformatics/btx428) now. I also worked on a poster
     with [Prof Siepel](http://siepellab.labsites.cshl.edu/), presented in [*BioData*](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=16)."
 
   - image: "/img/back_img_net.jpg"
     date: "May 2016 - July 2016"
     description: "I collaborated with [Prof. Adam Siepel](http://siepellab.labsites.cshl.edu/). Learned a lot about probabilistic
-    graphical model. Developed a model for incorporating information from GRO-seq data and RNA-seq data. 
+    graphical model. Developed a model for incorporating information from GRO-seq data and RNA-seq data.
     Such multimodal analysis has not been explored before."
 
   - image: "/img/back_img_net.jpg"
     date: "May 2016"
-    description: "Yayy, I passed my Research Proficiency Examination [[slides]](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/hiraksarkar/hiraksarkar.github.io/master/data/RPE_slides.pdf). Honored to have [*Prof Mike Schatz*](http://schatz-lab.org/)(JHU), 
+    description: "Yayy, I passed my Research Proficiency Examination [[slides]](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/hiraksarkar/hiraksarkar.github.io/master/data/RPE_slides.pdf). Honored to have [*Prof Mike Schatz*](http://schatz-lab.org/)(JHU),
     [*Prof Adam Siepel*](http://siepellab.labsites.cshl.edu/)(CSHL) and my supervisor Prof. Robert Patro on my committee."
 
   - image: "/img/timeline/combine_lab_logo.png"
@@ -181,7 +187,7 @@ Keep checking for exciting upcoming news. Released [[biorXiv]](https://doi.org/1
 
   - image: "/img/timeline/sbu3.png"
     date: "Aug 2014 - May 2015"
-    description: "I joined Stony Brook University and recieved presitigious CS Chair Fellowship of 10,000$. 
+    description: "I joined Stony Brook University and recieved presitigious CS Chair Fellowship of 10,000$.
     I met my supervisor Rob Patro and cleared all 5 qualifier courses :)."
 
 
@@ -221,7 +227,7 @@ social:
 
 #  - title: "scholar"
 #    url: "https://scholar.google.com"
- 
+
 ############
 # 404 page #
 ############
@@ -268,4 +274,3 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
-
