@@ -60,7 +60,7 @@ new_color: "color: #e34f26;"
 lines: # You can add HTML Tags in the Text
   - text: "Hi, this is Hirak"
 
-- text: "<span {{ site.new_color }}><u>[NEW]</u>
+  - text: "<span {{ site.new_color }}><u>[NEW]</u>
 </span>I joined Facebook as a data scientist intern and working on deep learning based workflows for disaster tracking"
 
   #- text: "<span {{ site.new_color }}><u>[NEW]</u>
