@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/hiraksarkar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hiraksarkar.github.io
+  * I am hiraksarkar (https://keybase.io/hiraksarkar) on keybase.
+  * I have a public key with fingerprint 4152 B3E7 7BE1 83B0 1E53  8B80 2EDB 3721 028D 527A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010108e33c524b606cce5b63c4ee111f9cacd3ecd8ecf4b614794b601b9dd900e2e50a",
+      "fingerprint": "4152b3e77be183b01e538b802edb3721028d527a",
+      "host": "keybase.io",
+      "key_id": "2edb3721028d527a",
+      "kid": "010108e33c524b606cce5b63c4ee111f9cacd3ecd8ecf4b614794b601b9dd900e2e50a",
+      "uid": "195c4d311ea696726e38ea6a46da0619",
+      "username": "hiraksarkar"
+    },
+    "service": {
+      "hostname": "hiraksarkar.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1587103963,
+  "expire_in": 157680000,
+  "prev": "5807a23e2ed77ecccc587376f67f453ebb40d08abd004b40f3860c29b04e1398",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIkAnicrZJbSBVBGMePWobHwjLoCkobZpLKzM5eD4YYFSn50kUJxNPOzhzPcnL3
+tGc1zUwiTXsJjOxigZhYGAQFYU+haUEXI5Vumi9mQaXZ/aGiTrNWT/XYzMN8M/P7
+/+f7hu/GvDiPN2ZndPCWMDSyP+bu9Y4KT+mpTU9rOGyRas5Xw4XozEJ3ERpx/CGD
+cD4OQDYVipAu8gKWgKTrVMQS0gVKIYQBVdd0gqhOFKoHGAAFWXU5iFVCVAAoT0Wg
+cZlcwDDLqB22DdNhtgIUeYyoLGMKFYQBpCJSsAJ4SjCSeQh4hYi87AqDVsRVsOSw
+FqHZhsXO2MY/k94/+P+cd8WMHVRFXSAIQqpJqiTzEkUKCzVBIhqQoOqCEWqbWjll
+dNCwtVBEs0OazdVmcuyi0tCp+7duMX9D2WWGE6zAv2oL25Zj6dYuF3GccMTnWjjV
+YVezh2L/bzc/NkzC/pQpKqkdMSyT80FG6o7h2kNRkSFAqoQyOVoVNmzqN1xClCUF
+sOG+QyuZpagAWeMRq5fIMtXZYEokSwFJDggiohgLgABFwwQAgcUBpEhA51UMBAqR
+qnBufbtNi/MJLE2tjFlGjDJTcypsytX29ZbM8sR4PfGzY91e83gT5v/pwOHROT8y
+1q4cK4yT6+fe7m8oSrn4dXLd9NSahf0TSWTPtSPN5ZeiRVmhjdGGM/zDvX3Rd99C
+42/11NVC+x2r/WSxx6rf17slYerKie689LzHF6a3Zl0YS3jWsuh+ya2dA4l6U6r9
+JNnXGP+s69u90u0dObGfTVK4dOuCaXC+pVC2wPo3z5OCSUsO+YseHC6nbQeO505W
+t9Y15qZ/mKqaBgUvN6RF85PHJ8gx70BP3dfOjNeb26Ngci+/MOl45+m2FUOvPtVd
+ru9KGTtfeLWqKfssfN8HR1KaxeF3XwYTvd0ltfmrxnLQYFfBxWXFd83vo8vTHjVO
+HF2c3vNx28EdJa1DL87dTJz6CQwHTfc=
+=0/6E
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hiraksarkar
+
+==================================================================
