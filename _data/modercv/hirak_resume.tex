@@ -1,0 +1,263 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage{xcolor} %hopefully will change color in line
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+\usepackage{mathpazo}
+\usepackage[T1]{fontenc}
+\renewcommand{\sfdefault}{ppl}
+
+
+% \usepackage{fontspec}
+% \setmainfont[Ligatures=TeX]{Calibri}
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Hirak} % Your first name
+\familyname{Sarkar} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{}
+\address{5812 Quebec St}{Berwyn Heights, MD-20740}
+\mobile{(631) 520 8131}
+\email{hsarkar@umd.edu}
+\homepage{www.hiraksarkar.com}{www.hiraksarkar.com} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+% \extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+% \renewcommand*\namefont{\fontfamily{pzc}\fontsize{40}{48}\selectfont}
+% \renewcommand*\titlefont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
+% \renewcommand*\addressfont{\fontfamily{pzc}\selectfont}
+%\renewcommand*\sectionfont{\fontfamily{pzc}\fontsize{20}{24}\selectfont}
+
+% \newcommand\mycventry[6]{%
+% \cventry{\fontsize{10}{10}\selectfont#1}{\fontsize{10}{10}\selectfont#2}{\fontsize{10}{10}\selectfont#3}{\fontsize{10}{10}\selectfont#4}{\fontsize{10}{10}\selectfont#5}{#6}}
+% \newcommand\cventryone[6]{%
+% \cventry{#1}{\fontsize{10}{10}\selectfont#2}{#3}{#4}{#5}{#6}}
+% \newcommand\cventrytwo[6]{%
+% \cventry{\fontsize{10}{10}\selectfont#1}{#2}{#3}{#4}{#5}{#6}}
+
+\newcommand\mycventry[6]{%
+\cventry{#1}{#2}{#3}{#4}{#5}{#6}}
+\newcommand\cventryone[6]{%
+\cventry{#1}{#2}{#3}{#4}{#5}{#6}}
+\newcommand\cventrytwo[6]{%
+\cventry{#1}{#2}{#3}{#4}{#5}{#6}}
+
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Sir or Madam,} % Opening greeting
+% \closing{Sincerely yours,} % Closing phrase
+% \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% \lipsum[1-2] % Dummy text
+% \lipsum[4] % Dummy text
+
+% \makeletterclosing % Print letter signature
+
+% \newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\mycventry{2020}{Ph.D}{Department of Computer Science}{University of Maryland}{Maryland, USA}
+{\underline{Advisor:} Prof. Rob Patro, \underline{Thesis:} Efficient Processing and Statistical Inference in RNA-seq data}  % Arguments not required can be left empty
+
+\mycventry{2014-transferred}{MS}{Department of Computer Science}{Stony Brook Universiry}{New York, USA}
+{\underline{Advisor:} Prof. Rob Patro, \underline{Thesis:} Improving storage and alignment methodologies for RNA-seq data}  % Arguments not required can be left empty
+
+\mycventry{2011-2013}{M.Tech}{Indian Statistical Institute}{Calcutta}{India}
+{\underline{Research Area:} Theoretical Computer Science}
+
+\section{Experience}
+%-- One instittut
+\mycventry{}{CBCB, UMIACS, University of Maryland}{College Park}{Maryland}{USA}{}{}
+\cvitem{2019-2020}{\textit{Research Assistant}}
+%--
+%-- One instittut
+\mycventry{}{Facebook Inc.}{Menlo Park}{San Francisco}{California, USA}{}{}
+\cvitem{2018(Summer)}{\textit{Ph.D Data Scientist Intern}}
+%--
+%-- One instittut
+\mycventry{}{Stony Brook University}{Stony Brook}{NY}{USA}{}{}
+\cvitem{2016 - 2018}{\textit{Research Assistant}}
+\cvitem{2014 - 2016}{\textit{Teaching Assistant}}
+%--
+%-- One instittut
+\mycventry{}{Cold Spring Harbor Lab}{Cold Spring Harbor}{NY}{USA}{}{}
+\cvitem{2016(Summer)}{\textit{Research Intern}, Siepel Lab}
+%--
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+\subsection{Bioinformatics}
+\cvitem{2020}{\textit{``Terminus enables the discovery of data-driven, robust transcript groups from RNA-seq data''}, by \underline{Hirak Sarkar}, Avi Srivastava, Hector Corrada Bravo, Michael I. Love and Rob Patro. [\textit{\textbf{ISMB' 20}}]}
+\cvitem{2020}{\textit{``A Bayesian framework for inter-cellular information sharing improves dscRNA-seq quantification''}, by Avi Srivastava, Laraib Malik, \underline{Hirak Sarkar}, Rob Patro. [\textit{\textbf{ISMB' 20}}]}
+\cvitem{2020}{\textit{``Alignment and mapping methodology influence transcript abundance estimation''}, by Avi Srivastava, Laraib Malik, \underline{Hirak Sarkar}, Mohsen Zakeri, Charlotte Soneson, Michael I. Love, Carl Kingsford, Rob Patro. [ \textit{\textbf{Genome Biology}}]}
+\cvitem{2019}{\textit{``Minnow: A principled framework for rapid simulation of dscRNA-seq data at the read level''}, by \underline{Hirak Sarkar}, Avi Srivastava and Rob Patro [\textit{\textbf{ISMB'19}}]}
+\cvitem{2018}{\textit{``Towards Selective-Alignment: Producing Accurate And Sensitive Alignments Using Quasi-Mapping''}, by \underline{Hirak Sarkar*}, Mohsen Zakeri*, Laraib Malik and Rob Patro [\textit{\textbf{ACM BCB' 18}}]}
+\cvitem{2018}{\textit{``An Efficient, Scalable and Exact Representation of High-Dimensional Color Information Enabled via de Bruijn Graph Search''}, by Fatemeh Almodaresi*, \underline{Hirak Sarkar*}, Avi Srivastava and Rob Patro [\textit{\textbf{ISMB' 18}}]}
+
+\cvitem{2017}{\textit{``Quark enables semi-reference-based compression of RNA-seq data''} by  \underline{Hirak Sarkar} and Rob Patro [\textit{\textbf {Oxford  Bioinformatics' 17}}]}{}
+\cventrytwo{2016}{}{}{}{}{\textit{``Fast, Lightweight Clustering of de novo Transcriptomes using Fragment Equivalence Classes''} by A Srivastava*, \underline{Hirak Sarkar*}, Laraib Malik and Rob Patro [\textit{\textbf{RECOMB-seq' 16}}]}
+%(* \textit{Joint first authors})
+\cvitem{2016}{\textit{``RapMap: A Rapid, Sensitive and Accurate Tool for Mapping RNA-seq Reads to Transcriptomes''} by A Srivastava, \underline{Hirak Sarkar}, Nitish Gupta and Rob Patro  [\textit{\textbf{ISMB' 16}}]}
+%------------------------------------------------
+\subsection{Other}
+\cvitem{2020}{\textit{`` Social Media Attributions in the Context of Water Crisis} by Rupak Sarkar, \underline{Hirak Sarkar}, S Mahinder and AR KhudaBukhsh.  [\textit{\textbf{ArXiv'20}}]}
+
+\cvitem{2016}{\textit{``Voronoi Game on Graphs''} (Extended version) by S. Bandyapadhyay, A. Banik, S. Das and \underline{H. Sarkar} (in alphabetical order of surnames) [\textit{\textbf{Theoretical Computer Science'15}}]}
+
+\subsection{Posters}
+\cvitem{2017}{\textit{`` Pufferfish: A fast graph-based indexing and query strategy for large genomic sequences} by Fatemeh Almodaresi*, \underline{Hirak Sarkar*}, and Rob Patro, Poster presented in [\textit{\textbf{WABI'17}}]}
+
+\cvitem{2016}{\textit{``Joint probabilistic model for multiple steps of gene regulation} by \underline{Hirak Sarkar''}, Yi-Fei Huang and Adam Siepel, Poster presented in  \textit{\textbf{BioData'16}}]}
+
+\section{Talks}
+\cvitem{2019}{ISMB, Basel, Switzerland}
+\cvitem{2018}{ACM-BCB, Washington DC, USA}
+\cvitem{2013}{WABI, IIT-kharagpur, India}
+
+
+\section{Awards}
+\cvitem{2014}{Special CS Chair Fellowship, Stony Brook University}
+\cvitem{2014}{NUS Research Scholarship - discontinued}
+\cvitem{2011-2013}{Post-graduate Scholarship by, Govt. of India. }
+\cvitem{2013}{First Prize for Software Competition (IEM), Calcutta}
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+
+% \section{Computer skills}
+
+% \cvitem{Basic}{\textsc{java}, Adobe Illustrator}
+% \cvitem{Intermediate}{\textsc{python}, \textsc{html}, \LaTeX, OpenOffice, Linux, Microsoft Windows}
+% \cvitem{Advanced}{Computer Hardware and Support}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Open Source Tools Contributed to}
+\cvitem{Terminus}{\textbf{Terminus enables the discovery of data-driven, robust transcript groups from RNA-seq data}, \url{https://github.com/COMBINE-lab/terminus}}
+\cvitem{Minnow}{\textbf{Minnow: A principled framework for rapid simulation of dscRNA-seq data at the read level}, \url{https://github.com/COMBINE-lab/minnow}}
+\cvitem{Pufferfish}{\textbf{Pufferfish: A fast graph-based indexing and query strategy for large genomic sequences}, \url{https://github.com/COMBINE-lab/pufferfish}}
+\cvitem{RapMap}{\textbf{RapMap: A Rapid, Sensitive and Accurate Tool for Mapping RNA-seq Reads to Transcriptomes}, \url{https://github.com/COMBINE-lab/rapmap}}
+\cvitem{Salmon}{\textbf{Towards Selective-Alignment: Producing Accurate And Sensitive Alignments Using Quasi-Mapping}, \url{https://github.com/COMBINE-lab/salmon}}
+
+\section{Grant Support}
+\cvitem{2018-2019}{\textbf{Efficient tools for quantifying and simulating transcript-level abundance in single-cell RNA-seq}, SVCF 182752, \textit{PI: Rob Patro, Role: Research Assistant}}
+\cvitem{2018-2020}{\textbf{Approximate Membership Query Data Structures in Computational Biology and Storage}, NIH R01 HG009937, \textit{PI: Rob Patro, Role: Research Assistant}}
+
+\section{Professional Activities}
+\cvitem{Reviewer}{Oxford Bioinformatics}
+\cvitem{Sub-reviewer}{ISMB, RECOMB, WABI, ACM-BCB}
+\cvitem{Deligated}{Genome Biology}
+
+\section{Skills}
+\cvitem{}{C++, Rust, Python}
+
+\section{Teaching Assistant}
+\cvitem{CSE219}{Game Programming, 2014-2015}
+\cvitem{CSE549}{Computational Biology, 2016-2017}
+
+\section{References}
+\cventry{Ph.D Advisor}{\href{www.robpatro.com}{Prof. Rob Patro}}{Assistant Professor}{Department of Computer Science, University of Maryland, MD, USA}{}{\href{rob@cs.umd.edu}{rob@cs.umd.edu}}
+
+\cventry{}{\href{http://mikelove.github.io}{Prof. Michael Love}}{ Department of Biostatistics} {Department of Genetics, University of North Carolina-Chapel Hill, NC. USA}{}{\href{michaelisaiahlove@gmail.com}{michaelisaiahlove@gmail.com}}
+
+\cventry{}{\href{https://www.hcbravo.org/}{Prof. H\'ector Corrada Bravo}}{Associate  Professor}{Department of Computer Science, University of Maryland, MD, USA}{}{\href{hcorrada@umiacs.umd.edu}{hcorrada@umiacs.umd.edu}}
+
+% \section{Communication Skills}
+
+% \cvitem{2010}{Oral Presentation at the California Business Conference}
+% \cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Languages}
+
+% \cvitemwithcomment{English}{Mothertongue}{}
+% \cvitemwithcomment{Spanish}{Intermediate}{Conversationally fluent}
+% \cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+% \cvlistdoubleitem{Piano}{Chess}
+% \cvlistdoubleitem{Cooking}{Dancing}
+% \cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
