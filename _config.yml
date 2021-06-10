@@ -75,11 +75,11 @@ analytics:
     tracking_id          :
 
 # utterances
-utterances:
-  repo: "hiraksarkar/hiraksarkar.github.io"
-  issue-term: "pathname"
-  label: "utteranc.es"
-  theme: "github-light"
+# utterances:
+#   repo: "hiraksarkar/hiraksarkar.github.io"
+#   issue-term: "pathname"
+#   label: "utteranc.es"
+#   theme: "github-light"
 
 
 # Site Author
