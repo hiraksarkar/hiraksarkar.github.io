@@ -4,9 +4,10 @@ date: 2021-06-08
 permalink: /posts/2021/06/theory-of-vae/
 usemathjax: true
 tags:
-  - cool posts
-  - category1
-  - category2
+  - machine_learning
+  - deeep_leaning
+  - derivarions
+  - 
 ---
 
 
