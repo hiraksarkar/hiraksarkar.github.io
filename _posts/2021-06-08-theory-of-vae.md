@@ -3,7 +3,6 @@ title: 'Theory of variational based inference'
 date: 2021-06-08
 permalink: /posts/2021/06/theory-of-vae/
 usemathjax: true
-comment_issue_id: 7
 tags:
   - machine_learning
   - deep_leaning
