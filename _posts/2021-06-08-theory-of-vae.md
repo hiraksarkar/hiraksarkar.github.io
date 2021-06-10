@@ -308,12 +308,14 @@ network $q_\phi$.
 > In fact you can think $q_{\phi}(Z|X)$ 
 as an output from **_encoder_** part of the auto-encoder. 
 
-In the light of this new notation we can re-write equation 19, as 
+In the light of this new notation we can re-write equation (\ref{elbo5}), as 
+
 $$
 \begin{align}
 \mathcal{L}(\theta,\phi) =  \log P(X|\theta) - KL\big[ q_\phi(Z|X) || P(Z|X,\theta)  \big] 
 \end{align}
 $$
+
 We would simplify the above equation a but by assuming that we first like to find out the best $\phi$ for 
 one data point $\mathbf{x}^i$. We would also assume $\mathbf{x}^i$ is dependent on a subset of hidden 
 variables $\mathbf{z}^i$, with this assumptions, we can write likelihood for one data point 
