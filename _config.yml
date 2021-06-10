@@ -18,7 +18,7 @@ teaser                   :  # filename of teaser fallback teaser image placed in
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "custom" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            :
   discourse:
@@ -74,14 +74,20 @@ analytics:
   google:
     tracking_id          :
 
+# utterances
+utterances:
+  repo: "hiraksarkar/hiraksarkar.github.io"
+  issue-term: "pathname"
+  label: "utteranc.es"
+  theme: "github-light"
 
 
 # Site Author
 author:
   name             : "Hirak Sarkar"
   avatar           : "profile.jpg"
-  bio              : "Computational Biologist; Research scholar at the <a style='color: black;' href='https://hms.harvard.edu/'>Harvard Medical School</a>; Former research assistant at the <a style='color: black;' href='http://cs.umd.edu'>Computer Science Department, University of Maryland</a>"
-  location         : "College Park, Maryland"
+  bio              : "Research fellow at the <a style='color: black;' href='https://hms.harvard.edu/'>Harvard Medical School</a>; Former research assistant at the <a style='color: black;' href='http://cs.umd.edu'>Computer Science Department, University of Maryland</a>"
+  location         : "Boston, Harvard"
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=7vu64WsAAAAJ&hl=en"
   email            :
