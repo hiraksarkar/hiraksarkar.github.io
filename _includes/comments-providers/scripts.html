@@ -1,6 +1,5 @@
 {% if site.comments.provider and page.comments %}
 
-{% include comments.html %}
 {% case site.comments.provider %}
 {% when "disqus" %}
   {% include /comments-providers/disqus.html %}
