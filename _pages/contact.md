@@ -6,7 +6,7 @@ author_profile: true
 ---
 Contact information is below, including email and various web services.  
 
-* E-mail: hsarkar [at] umd.edu
+* E-mail: hirak [at] princeton.edu
 * Twitter: [hrksrkr](http://twitter.com/hrksrkr)
 * Google Scholar: [author: hirak-sarkar](https://scholar.google.com/citations?user=7vu64WsAAAAJ&hl=en)
 * LinkedIn: [hiraksarkar](http://www.linkedin.com/in/hiraksarkar)
