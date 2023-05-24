@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-<em>I have many institute emails, they change as I move from one institute to another. The constant email id is hiraksarkar.cs@gmail.com</em>
+<em>I have many institute emails, they change as I move from one institute to another. The constant email id is hiraksarkar.cs@gmail.com</em> Feel free to schedule a one-to-one zoom meeting with me via [calendarly](https://calendly.com/hs0424), if the time booked time is available, a confirmation email will be sent.
 
 
 Hi I am Hirak, a Ludwig Princeton Scholar at the [Princeton University](https://princeton.edu). I work in the field of cancer-genomics under the guidance of Prof. [Yibin Kang](https://molbio.princeton.edu/people/yibin-kang) and Prof. [Ben Raphael](https://lsi.princeton.edu/ben-raphael). I am very fortunate to work with Prof. [Eileen White](https://www.cinj.org/research/eileen-white-phd)'s lab at the Cancer Institute of New Jersey. 
