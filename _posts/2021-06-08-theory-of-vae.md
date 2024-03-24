@@ -278,8 +278,8 @@ a lot in a real world problem)
 
 ### 3. Variational autoencoder
 
-Equation (\ref{elbo5}) states $\mathcal{L}(q,\theta) = \log P(X|\theta) - KL\big[ q(Z|\theta) || P(Z|X,\theta)
-\big]$$ , where we had taken help of a distirbution $$q$$. We realized that the $$E$$ step finds out a $$q$
+Equation (\ref{elbo5}) states $$\mathcal{L}(q,\theta) = \log P(X|\theta) - KL\big[ q(Z|\theta) || P(Z|X,\theta)
+\big]$$ , where we had taken help of a distirbution $$q$$. We realized that the $$E$$ step finds out a $$q$$
 that minimizes the KL divergence part given an initial estimate of $$\theta$$, $$\theta^0$$. When we are
 lucky we can set $$q(Z|\theta^0)$$ to the "true" estimate to $$P(Z|X,\theta^0)$$. In that case we are certain that
 we can fully evaluate $$P(Z|X,\theta^0)$$, by getting a solution to  equation (\ref{marginal}) (doing integration etc.).
@@ -337,8 +337,8 @@ $$
 
 $$\log P(\mathbf{x}^i|\theta)$$
 does not contain anything to do with $$q_\phi$$. We can rewrite
-$\log P(\mathbf{x}^i|\theta) = \int_z \log P(\mathbf{x}^i|\theta) q_\phi(\mathbf{z}^i|\mathbf{x}^i)
-d\mathbf{z}^i$$, since $$q_\phi(\mathbf{z}^i|\mathbf{x}^i)$ is a probability distribution and therefore,
+$$\log P(\mathbf{x}^i|\theta) = \int_z \log P(\mathbf{x}^i|\theta) q_\phi(\mathbf{z}^i|\mathbf{x}^i)
+d\mathbf{z}^i$$, since $$q_\phi(\mathbf{z}^i|\mathbf{x}^i)$$ is a probability distribution and therefore,
 $$\int_z q_\phi(\mathbf{z}^i|\mathbf{x}^i,\theta) d\mathbf{z}^i = 1$$. We used the similar trick while
 absorbing  $$\log P(X|\theta)$$ inside expectation in equation 12.
 
@@ -495,10 +495,10 @@ Although this expression might look simple, it leads to a very bad sampling.
 
 > Why?
 
-Let's think about a real world scenario, where we start with some random $$\theta^0$$ and $\log
-P(\mathbf{x}^i|\mathbf{z}^i,\theta^0)$ denotes the probability of generating an image from some random
-initalization, this probability can be very low number (log likelihood of images $\log10^{-10^6} =
--10^6$$). So while sampling we choose $$$\mathbf{z}_d^i \sim q_\phi (\mathbf{z}^i|\mathbf{x}^i)$$ and then
+Let's think about a real world scenario, where we start with some random $$\theta^0$$ and $$\log
+P(\mathbf{x}^i|\mathbf{z}^i,\theta^0)$$ denotes the probability of generating an image from some random
+initalization, this probability can be very low number (log likelihood of images $$\log10^{-10^6} = -10^6$$). So while sampling we choose
+$$\mathbf{z}_d^i \sim q_\phi (\mathbf{z}^i|\mathbf{x}^i)$$ and then
 take derivative of log of that  with respect to $$\phi$$, which could be negative or positive, multiply
 with a highly negative number, becoming a very large or small number. So the sampling mechanisms (such as
 MCMC) will take a long time to converge.
