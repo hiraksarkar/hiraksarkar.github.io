@@ -264,7 +264,7 @@ $$
 This approximation looks simple, **but** there could be caveats of such a solution, such as,
 
 - The expression $$\frac{1}{D} \sum_{i} P(X|\mathbf{z}^i,\theta)$$  can be far from true $$\int_z P( |Z,\theta^0) P(Z|\theta^0) dz$$
-when $$\mathbf{z}^i$ is not well distributed, or are autocorrelated (
+when $$\mathbf{z}^i$$ is not well distributed, or are autocorrelated (
 therefore does not capture the space of true hidden variable distribution).
 
 -  We can't simply sample from $$P(Z|\theta^0)$$, because there is no analytical form to it. (This happens
@@ -378,8 +378,8 @@ z q_\phi(\mathbf{z}^i|\mathbf{x}^i) \log \frac{ q_\phi(\mathbf{z}^i|\mathbf{x}^i
 \end{align}
 $$
 
-We are again in trouble, since the first part of equation (\ref{vaeelbo}) is also an expectation, but since $q_
-\phi(\mathbf{z}^i|\mathbf{x}^i)$ is something that we can choose, we can take enough samples and
+We are again in trouble, since the first part of equation (\ref{vaeelbo}) is also an expectation, but since
+$$q_\phi(\mathbf{z}^i|\mathbf{x}^i)$$ is something that we can choose, we can take enough samples and
 approximate the expression.
 
 We need two different outcomes, firstly, we want to optimize ELBO, $$\mathcal{L}$$ , and get the best
