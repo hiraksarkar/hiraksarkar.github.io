@@ -1,0 +1,51 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Hirak Sarkar
+    - name: Languages
+      value: Bengali, English, Hindi
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD
+      institution: University of Maryland, College Park, MD, US
+      year: 2020
+      description:
+        - "Improving storage and alignment methodologies for RNA-seq data"
+    - title: MS in Computer Science
+      institution: Stony Brook University, Stony Brook, NY, US
+      year: 2016
+    - title: M.Tech in Computer Science
+      institution: Indian Statistical Institute, Kolkata, India
+      description:
+        - "Algorithms and Graph theory"
+      year: 2013
+    - title: B.Tech in Computer Science
+      institution: Kalyani Govt. Engg. College, Kalyani, India
+      year: 2011
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Princeton Ludwig Scholar and Postdoctoral Research Associate
+      institution: Princeton University, New Jersey, USA
+      year: 2023-present
+      description:
+        - Spatial Transcriptomics
+        - Machine Learning
+        - Single-cell RNA-seq
+        - Cancer Biology
+    - title: Postdoctoral Research Associate
+      institution: Harvard Medical School, Boston, MA, USA
+      year: 2021-2022
+    - title: PHD Intern, Infrastructure Data Scientist
+      institution: Facebook, Menlo Park, CA, USA
+      year: 2018
+
+- title: Other Interests
+  type: list
+  contents:
+    - Indian Classical Music
+    - Painting
