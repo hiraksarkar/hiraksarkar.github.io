@@ -5,6 +5,8 @@ date: 2021-06-08
 description: Working out the math of variational inference
 usemathjax: true
 giscus_comments: true
+toc:
+  sidebar: left
 tags:
   - machine_learning
   - deep_leaning
