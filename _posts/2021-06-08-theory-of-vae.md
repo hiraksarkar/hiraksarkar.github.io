@@ -240,8 +240,8 @@ If we can't solve the integration $$\int_z P(X|Z,\theta^0) P(Z|\theta^0) dz$$  t
  other ways to lower the KL divergence. We of course can not make it 0 under $$\theta^0$$, but may be, we
  can get closer, and KL divergence would be a small value.
 
-We still know that our best bet is to evaluate $$P(Z|X,\theta^0)$$ and therefore evaluating $\int_z P(X|
-Z,\theta^0) P(Z|\theta^0) dz$$  or   $$\mathbb{E}_{P(Z|\theta^0)} [P(X|Z,\theta^0)]$ , if we can't do that
+We still know that our best bet is to evaluate $$P(Z|X,\theta^0)$$ and therefore evaluating $$\int_z P(X|Z,\theta^0) P(Z|\theta^0) dz$$  or
+$$\mathbb{E}_{P(Z|\theta^0)} [P(X|Z,\theta^0)]$$ , if we can't do that
 exactly, then to the least we can use *numerical* algorithms in order to estimate this integration
 approximately. There are many approximation algorithms that can give us numeric estimates of an actual
 integration.
@@ -254,8 +254,8 @@ $$P(Z|\theta^0)$$ (which can be an intimidating task on
 it's own). and evaluate $$P(X|Z,\theta^0)$$.
 
 To be more concrete you sample (there are many many good algorithms for well-structured sampling such as
- MCMC, gibbs) a vector (hidden variables) $$\mathbf{z}^i \sim P(Z|\theta^0)$$ (if you can) and evaluate $P(X
- |\mathbf{z}^i,\theta^0)$$. Say, do it  $$D$ (a bunch of) times, then our best hope is to calculate
+MCMC, gibbs) a vector (hidden variables) $$\mathbf{z}^i \sim P(Z|\theta^0)$$ (if you can) and evaluate $$P(X |\mathbf{z}^i,\theta^0)$$.
+Say, do it  $$D$$ (a bunch of) times, then our best hope is to calculate
 
 $$
 \frac{1}{D} \sum_{i} P(X|\mathbf{z}^i,\theta)
@@ -263,8 +263,8 @@ $$
 
 This approximation looks simple, **but** there could be caveats of such a solution, such as,
 
-- The expression $$\frac{1}{D} \sum_{i} P(X|\mathbf{z}^i,\theta)$$  can be far from true $\int_z P(
-X|Z,\theta^0) P(Z|\theta^0) dz$$  when $$\mathbf{z}^i$ is not well distributed, or are autocorrelated (
+- The expression $$\frac{1}{D} \sum_{i} P(X|\mathbf{z}^i,\theta)$$  can be far from true $$\int_z P( |Z,\theta^0) P(Z|\theta^0) dz$$
+when $$\mathbf{z}^i$ is not well distributed, or are autocorrelated (
 therefore does not capture the space of true hidden variable distribution).
 
 -  We can't simply sample from $$P(Z|\theta^0)$$, because there is no analytical form to it. (This happens
