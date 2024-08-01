@@ -6,7 +6,7 @@ subtitle: Computational Biology, Statistics, Machine Learning at Princeton Unive
 
 profile:
   align: right
-  image: prof_pic_hirak.jpg
+  image: ISMB_headshot.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>35 Olden St</p>
